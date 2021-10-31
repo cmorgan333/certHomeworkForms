@@ -1,0 +1,25 @@
+nav {
+	height: 160px;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	.nav-name {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		color: white;
+	}
+	.links {
+		width: 1000px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		a {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 30px;
+			color: white;
+			text-decoration: none;
+		}
+	}
+}
